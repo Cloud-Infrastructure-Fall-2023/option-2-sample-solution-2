@@ -1,0 +1,17 @@
+{% extends 'base.html'%}
+
+{% block head %}
+<title>Index</title>
+
+{% endblock %}
+
+
+{% block body %}
+
+<h1 style="text-align: center">Load My Engine</h1>
+<form style="text-align: center" action="/upload" method="POST" enctype="multipart/form-data">
+    <input type="file" name="file" multiple />
+    <p><input type="submit" value="Load Engine"></p>
+</form>
+
+{% endblock %}

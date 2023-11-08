@@ -1,0 +1,39 @@
+{% extends 'base.html'%}
+
+{% block head %}
+<title>Display Search</title>
+
+{% endblock %}
+
+
+
+{% block body %}
+<div style="text-align:right" class="content">
+    <a href="/searchterm">Go Back to Search</a>
+</div>
+
+<div style="text-align:left" class="searchinfo">
+    You searched for term: <b>{{ sterm }}</b>
+    <br>
+    Your search was executed in <b>XXX</b> ms
+</div>
+
+<div style="text-align:center" class="content">
+    <table>
+        <tr>
+            <th>Doc ID</th>
+            <th>Doc Folder</th>
+            <th>Doc Name</th>
+            <th>Frequencies</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</div>
+
+
+{% endblock %}

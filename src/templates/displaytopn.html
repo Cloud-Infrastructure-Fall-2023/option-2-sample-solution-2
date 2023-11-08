@@ -1,0 +1,37 @@
+{% extends 'base.html'%}
+
+{% block head %}
+<title>Display Top-N</title>
+
+{% endblock %}
+
+
+
+{% block body %}
+<div style="text-align:right" class="content">
+    <a href="/searchterm">Go Back to Search</a>
+</div>
+
+<h1>Inverted indicies were constructed successfully!</h1>
+
+<div style="text-align:left" class="searchinfo">
+
+    <br>
+    Top-N Frequent Terms
+</div>
+
+<div style="text-align:center" class="content">
+    <table>
+        <tr>
+            <th>Term</th>
+            <th>Total Frequencies</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</div>
+
+
+{% endblock %}

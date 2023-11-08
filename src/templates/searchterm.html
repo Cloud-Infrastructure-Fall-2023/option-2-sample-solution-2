@@ -1,0 +1,22 @@
+{% extends 'base.html'%}
+
+{% block head %}
+<title>Search term</title>
+
+{% endblock %}
+
+
+
+{% block body %}
+
+<h1 style="text-align: center"> Enter Your Search Term
+</h1>
+
+<div class="form">
+    <form style="text-align: center" action="/displaysearch" method="POST">
+        <input type="text" name="sterm" id="sterm">
+        <p><input type="submit" value="Search"></p>
+    </form>
+</div>
+
+{% endblock %}

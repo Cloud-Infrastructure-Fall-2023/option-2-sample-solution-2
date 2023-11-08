@@ -1,0 +1,26 @@
+{% extends 'base.html'%}
+
+{% block head %}
+<title>Engine Loaded</title>
+
+{% endblock %}
+
+
+
+{% block body %}
+
+<h1 style="text-align: center">Engine was loaded
+    <br>&
+    <br>Inverted indicies were constructed successfully!
+    <br><br>
+    <br> Please Select Action
+</h1>
+<form style="text-align: center" action="/searchterm" method="GET" enctype="multipart/form-data">
+    <p><button type="submit" value="Search for Term">Search for Term</button></p>
+</form>
+
+<form style="text-align: center" action="/topn" method="POST" enctype="multipart/form-data">
+    <p><button type="submit" value="Top-N">Top-N</button></p>
+</form>
+
+{% endblock %}
