@@ -1,3 +1,4 @@
+Team Members: Yongjie Yu (yongjiey), Chen Gao (cgao2)
 Docker image created:
 https://hub.docker.com/r/sravan0018/search_engine
 
